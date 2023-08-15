@@ -1,7 +1,7 @@
 print("Bienvenido!")
 
-valor1 = input("Ingrese el 1° valor: ")
-valor2 = input("Ingrese el 2° valor: ")
+valor1 = float(input("Ingrese el 1° valor: "))
+valor2 = float(input("Ingrese el 2° valor: "))
 
 print("-----------------------------------------")
 print("MENU:")
@@ -14,14 +14,14 @@ print("5. Mostrar multiplicación")
 print("6. Mostrar división")
 print("7. Salir")
 
-opcion = input("Elija una opción: ")
+opcion = int(input("Elija una opción: "))
 
 while (opcion != 7):
     if (opcion == 1):
-        valor1 = input("Ingrese el 1° valor: ")
+        valor1 = float(input("Ingrese el 1° valor: "))
         print(f"Los valores son: \nVALOR 1:{valor1} \nVALOR 2:{valor2}")
     elif(opcion == 2):
-        valor2 = input("Ingrese el 2° valor: ")
+        valor2 = float(input("Ingrese el 2° valor: "))
         print(f"Los valores son: \nVALOR 1-->{valor1} \nVALOR 2-->{valor2}")
     elif(opcion == 3):
         suma = valor1 + valor2
@@ -35,6 +35,8 @@ while (opcion != 7):
     elif(opcion == 6):
         division = valor1 / valor2
         print(f"La división entre {valor1} y {valor2} es: {division:.2f}")
+    else:
+        print(f"La opción {opcion} no existe.")
     print("-----------------------------------------")
     print("MENU:")
     print("-----------------------------------------")
@@ -45,6 +47,6 @@ while (opcion != 7):
     print("5. Mostrar multiplicación")
     print("6. Mostrar división")
     print("7. Salir")
-    opcion = input("Elija una opción: ")
+    opcion = int(input("Elija una opción: "))
 
-print("Nos vemos!")
+print("Nos vimo en Disney!")
