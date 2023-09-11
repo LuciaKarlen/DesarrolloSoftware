@@ -1,0 +1,128 @@
+body header{
+    text-align: center; /*alinea los elementos en el centro*/
+    background-color: #DAD4B5;
+    display: flex;
+    font-family: "Open Sans";
+}
+.cuadroIzqHeader{
+    display: flex; 
+    flex-grow: 1;
+    align-items: center;
+}
+.cuadroDerHeader{
+    display: flex; 
+    flex-grow: 1; 
+    justify-content: right;
+    align-items: flex-end;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    list-style: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-style:groove;
+}
+a{
+    text-decoration: none;
+}
+.titulo{
+    display: flex;
+}
+.logoClau{
+    width: 50px;
+    margin-right: 20px;
+}
+.logoInsta, .logoPhone{
+    width: 5%; /*tamaño del logo*/
+    height: 5%; /*tamaño del logo*/
+    margin-right: 2%; /*espacio logo palabra*/
+}
+.logoFace{
+    width: 3%; /*tamaño del logo*/
+    height: 3%; /*tamaño del logo*/
+    margin-right: 2%; /*espacio logo palabra*/
+}
+body footer{
+    display: flex;
+    align-items: center;
+    background-color: #DAD4B5; 
+    position: fixed;
+    bottom: 0%;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    padding: 0 2px;
+}
+.fondo{
+    background-image: url("../imagenes/fondoContadora.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    color: antiquewhite;
+    border-color: black;
+    font-family: "Open Sans";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+.contenedor{
+    display: flex;
+    align-items: baseline;
+}
+.cuadro1, .cuadro2, .cuadro3, .cuadro4{
+    display: inline-block; /* Muestra los cuadros en línea uno al lado del otro */
+    vertical-align: top; /* Alinea los cuadros en la parte superior */
+    width: calc(25% - 20px); /* Distribuye el ancho de los cuadros, ajusta según sea necesario */
+    margin-right: 20px; /* Espacio horizontal entre los cuadros, ajusta según sea necesario */
+    background-color: #f0f0f0; /* Cambia el color de fondo según sea necesario */
+    padding: 20px; /* Espacio interno dentro de los cuadros */
+    text-align: center;
+    box-sizing: border-box; /* Incluye el relleno en el cálculo del ancho */
+}
+.tituloCuadro{
+    font-size: 20px;
+    font-family: "Open Sans";
+}
+p{
+    font-family: "Open Sans";
+}
+.tituloServicios{
+    text-align: center;
+    font-family: "Open Sans";
+}
+.cuadro1Info,.cuadro2Info,.cuadro3Info {
+    display: inline-block; /* Muestra los cuadros en línea uno al lado del otro */
+    vertical-align: top; /* Alinea los cuadros en la parte superior */
+    width: calc(30% - 20px); /* Distribuye el ancho de los cuadros, ajusta según sea necesario */
+    margin-left: 30px;
+    margin-right: 30px; /* Espacio horizontal entre los cuadros, ajusta según sea necesario */
+    background-color: #f0f0f0; /* Cambia el color de fondo según sea necesario */
+    padding: 20px; /* Espacio interno dentro de los cuadros */
+    text-align: center;
+    box-sizing: border-box; /* Incluye el relleno en el cálculo del ancho */
+    font-family: "Open Sans";
+}
+.contenedorInicial{
+    font-family: "Open Sans";
+    text-align: center;
+    border-bottom: 10px;
+}
+
+.contenedorUltimo{
+    font-family: "Open Sans";
+    border-top: 10px;
+}
